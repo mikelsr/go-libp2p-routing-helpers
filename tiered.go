@@ -6,10 +6,10 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/ipfs/go-cid"
-	record "github.com/libp2p/go-libp2p-record"
-	ci "github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/routing"
+	record "github.com/mikelsr/go-libp2p-record"
+	ci "github.com/mikelsr/go-libp2p/core/crypto"
+	"github.com/mikelsr/go-libp2p/core/peer"
+	"github.com/mikelsr/go-libp2p/core/routing"
 )
 
 // Tiered is like the Parallel except that GetValue and FindPeer
